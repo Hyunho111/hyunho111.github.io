@@ -103,8 +103,9 @@ h3 a { color: var(--ink); }
 .timeline-date { padding-top: 4px; color: var(--muted); font-size: 14px; font-weight: 500; line-height: 1.4; }
 .timeline-card { grid-column: 2; min-width: 0; padding: 18px 20px; border: 1px solid var(--line); border-radius: 10px; }
 .timeline-title { margin-bottom: 5px; font-weight: 600; }
-.timeline-institution { margin: 0; color: var(--muted); font-size: 15px; }
-.timeline-description { margin: 8px 0 0; color: var(--text); font-size: 15px; line-height: 1.6; }
+.timeline-institution { margin: 0; color: var(--muted); font-size: 14px; font-weight: 500; line-height: 1.5; }
+.timeline-description { position: relative; margin: 14px 0 0; padding-left: 14px; color: var(--text); font-size: 15px; line-height: 1.6; }
+.timeline-description::before { content: ""; position: absolute; top: .68em; left: 0; width: 4px; height: 4px; border-radius: 50%; background: var(--muted); }
 .site-footer { margin-top: 40px; padding-block: 22px 28px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 .skip-link { position: absolute; top: -80px; left: 16px; z-index: 20; padding: 10px 16px; background: var(--canvas); }
 .skip-link:focus { top: 8px; }

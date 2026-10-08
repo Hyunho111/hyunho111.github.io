@@ -8,7 +8,7 @@ window.homepage = {
     name: "Hyunho Song",
     portrait: "assets/portrait-trip.jpg",
     bio: [
-      ["I am a master's student in the Department of Future Automotive Mobility at Seoul National University."],
+      ["I am a master's student in the Department of Future Automotive Mobility at Seoul National University, advised by Professor Ayoung Kim in the RPM Robotics Lab."],
       ["My research focuses on state estimation for mobile robots and autonomous vehicles."]
     ],
     links: [
@@ -60,16 +60,28 @@ window.homepage = {
       description: "Research on robot state estimation."
     },
     {
+      date: "Aug. 2026",
+      title: "Team Member",
+      institution: "29th Roboracer Autonomous Racing Competition (IFAC 2026)",
+      description: "Improving localization and obstacle detection software."
+    },
+    {
       date: "Aug. 2024 – Feb. 2025",
       title: "Research Intern",
       institution: "RPM Robotics Lab, Seoul National University",
-      description: "Research experience in robotic perception."
+      description: "Extrinsic calibration of multi-sensor systems."
     },
     {
       date: "Mar. 2024 – Jun. 2024",
       title: "Intern",
       institution: "HD Hyundai Robotics",
       description: "Engineering support for industrial automation."
+    },
+    {
+      date: "Jan. 2024",
+      title: "Intern",
+      institution: "ESSYS, Future Mobility Technology Center (FMTC) Consortium",
+      description: "Hands-on experience with autonomous driving software."
     },
     {
       date: "Mar. 2017 – Feb. 2025",
