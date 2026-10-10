@@ -11,6 +11,7 @@ Hyunho Song — Personal Homepage
   styles.css    색상, 글꼴, 간격, 모바일 배치
   index.html    페이지 구조와 검색 결과용 설명
   site.js       content.js의 내용을 화면에 표시
+  assets/Hyunho_Song_CV.pdf   홈페이지 CV 링크에서 열리는 최신 CV
   assets/portrait-trip.jpg    사용자가 제공한 프로필 사진 원본
   사진은 원본을 유지하고 styles.css의 .portrait-crop에서 표시 영역만 잘랐습니다.
   얼굴·상반신과 물가 배경을 담은 정사각형 구도입니다.
@@ -20,6 +21,8 @@ Hyunho Song — Personal Homepage
   title, authors, venue, links는 필수입니다.
   status와 award / awardUrl은 필요할 때만 입력합니다.
   논문은 배열의 순서대로 표시되며 본인 이름은 자동으로 굵게 표시됩니다.
+  CV와 홈페이지 모두 최신 연도 우선, 같은 연도에는 제1저자 논문 우선으로 정렬합니다.
+  현재 순서: CSSIO (2026) → CNS (2025) → HeRCULES (2025).
 
 Experiences 수정
   content.js의 experiences 배열에서 date, title, institution을 수정합니다.
@@ -28,7 +31,9 @@ Experiences 수정
 
 배포
   GitHub Pages 저장소의 루트에 이 폴더의 내용을 올리면 됩니다.
-  현재는 로컬 템플릿이며 외부에 게시하지 않았습니다.
+  공개 주소: https://hyunho111.github.io/
+  상단 링크 순서: Email → CV → Google Scholar → GitHub → LinkedIn.
+  CV를 갱신할 때 assets/Hyunho_Song_CV.pdf도 최신 파일로 교체합니다.
 
 참고한 디자인
   Chiyun Noh의 개인 홈페이지와 공개 저장소를 적극 참고해 새로 구현했습니다.

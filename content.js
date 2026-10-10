@@ -2,6 +2,7 @@
  * 소개, 논문, 경력은 이 파일에서 수정합니다. 설치나 빌드 없이 동작합니다.
  * 소개 문단의 항목은 일반 문자열 또는 { text, url } 링크입니다.
  * 논문은 publications 배열 순서대로 표시됩니다.
+ * CV와 함께 최신 연도 우선, 같은 연도에는 제1저자 논문 우선으로 유지합니다.
  */
 window.homepage = {
   profile: {
@@ -13,6 +14,7 @@ window.homepage = {
     ],
     links: [
       { label: "Email", url: "mailto:hun1021405@snu.ac.kr" },
+      { label: "CV", url: "assets/Hyunho_Song_CV.pdf" },
       { label: "Google Scholar", url: "https://scholar.google.com/citations?user=n4a3MV4AAAAJ&hl=en" },
       { label: "GitHub", url: "https://github.com/Hyunho111" },
       { label: "LinkedIn", url: "https://www.linkedin.com/in/hyunho-song-92105334a" }
